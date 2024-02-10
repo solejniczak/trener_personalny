@@ -27,7 +27,7 @@ export const checkoutOrder = async (order:OrderParams) => {
         },
       ],
       mode: 'payment',
-      success_url: `${process.env.NEXT_PUBLIC_SERVER_URL}/profile`,
+      success_url: `${process.env.NEXT_PUBLIC_SERVER_URL}/sukces`,
       cancel_url: `${process.env.NEXT_PUBLIC_SERVER_URL}/`,
     });
 
