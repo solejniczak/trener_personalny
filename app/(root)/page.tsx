@@ -5,8 +5,6 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import { Reveal } from "@/components/shared/Reveal";
-import Checkout from "@/components/shared/Checkout"
-
 
 export default function Home() {
   return (
@@ -28,7 +26,7 @@ export default function Home() {
             <Reveal>
               <Image
                 src='/assets/images/olejniczak.png'
-                alt="jakub"
+                alt="olejniczak"
                 width={800}
                 height={1000}
                 className="p-5"
