@@ -25,7 +25,7 @@ export default function Home() {
             </Reveal>
             <Reveal>
               <Image
-                src='/assets/images/olejniczak.png'
+                src='/assets/images/olejniczak1.png'
                 alt="olejniczak"
                 width={800}
                 height={1000}
