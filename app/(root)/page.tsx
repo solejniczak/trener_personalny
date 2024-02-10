@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import { Reveal } from "@/components/shared/Reveal";
+import Checkout from "@/components/shared/Checkout"
 
 
 export default function Home() {

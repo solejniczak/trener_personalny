@@ -1,8 +1,11 @@
+"use client"
+
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { Reveal } from './Reveal'
+import Checkout from './Checkout'
 
 const Pricing = () => {
   return (
@@ -73,11 +76,7 @@ const Pricing = () => {
                     99zł* 
                 </p>
                 <p className='p-5 flex justify-center min-h-[5rem]'>
-                <Button size="lg" className="button md:w-fit bg-pink hover:bg-pink-700">
-                    <Link href="/cennik">
-                        Kup Basic
-                    </Link>
-                </Button>
+                    <Checkout title={'Plan Basic'} price={99} buttonText={'Kup Basic'}/>
                 </p>
             </div>
             <div className='flex flex-col border-r w-1/4 min-h-[5rem]'>
@@ -137,11 +136,7 @@ const Pricing = () => {
                     139zł* 
                 </p>
                 <p className='p-5 flex justify-center min-h-[5rem] '>
-                <Button size="lg" className="button w-fit bg-pink hover:bg-pink-700">
-                    <Link href="/cennik">
-                        Kup Premium
-                    </Link>
-                </Button>
+                <Checkout title={'Plan Premium'} price={139} buttonText={'Kup Premium'}/>
                 </p>
             </div>
             <div className='flex flex-col w-1/4 '>
@@ -200,11 +195,7 @@ const Pricing = () => {
                     179zł* 
                 </p>
                 <p className='p-5 flex justify-center min-h-[5rem]'>
-                    <Button size="lg" className="button w-fit bg-pink hover:bg-pink-700">
-                        <Link href="/cennik">
-                            Kup Special
-                        </Link>
-                    </Button>
+                    <Checkout title={'Plan jakubsc Special'} price={179} buttonText={'Kup Special'}/>
                 </p>
             </div>
         </div>

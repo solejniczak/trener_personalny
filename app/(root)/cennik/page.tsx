@@ -11,7 +11,7 @@ const Cennik = () => {
   return (
     <div>
         <div className='mt-20 text-center max-w-2xl lg:mx-auto p-5 md:px-10 xl:px-0 w-full'>
-            <MobilePricing />
+            <MobilePricing/>
             <Pricing />
         </div>
     </div>

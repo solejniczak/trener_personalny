@@ -12,6 +12,7 @@ import {
   } from "@/components/ui/popover"
 
 import { Reveal } from './Reveal'
+import Checkout from './Checkout'
 
 const MobilePricing = () => {
   return (
@@ -49,11 +50,7 @@ const MobilePricing = () => {
                                     <p>Tygodniowa dieta</p>
                                 </div>
                                 <p className='mt-5 font-bold'>Cena: 99zł miesięcznie</p>
-                                <Button size="lg" className="button w-full bg-pink mt-2">
-                                    <Link href="/cennik">
-                                        Kup Basic
-                                    </Link>
-                                </Button>
+                                <Checkout title={'Plan Basic'} price={'99'} buttonText={'Kup Basic'}/>
 
                             </div>
                         </PopoverContent>
@@ -111,11 +108,7 @@ const MobilePricing = () => {
                                     <p>1vs1 w lige</p>
                                 </div>
                                 <p className='mt-5 font-bold'>Cena: 139zł miesięcznie</p>
-                                <Button size="lg" className="button w-full bg-pink mt-2">
-                                    <Link href="/cennik">
-                                        Kup Premium
-                                    </Link>
-                                </Button>
+                                <Checkout title={'Plan Premium'} price={'139'} buttonText={'Kup Premium'}/>
 
                             </div>
                         </PopoverContent>
@@ -184,11 +177,7 @@ const MobilePricing = () => {
                                     <p>Pewniaczki na żądanie</p>
                                 </div>
                                 <p className='mt-5 font-bold'>Cena: 179zł miesięcznie</p>
-                                <Button size="lg" className="button w-full bg-pink mt-2">
-                                    <Link href="/cennik">
-                                        Kup jakubsc Special
-                                    </Link>
-                                </Button>
+                                <Checkout title={'Plan jakubsc Special'} price={'179'} buttonText={'Kup Special'}/>
 
                             </div>
                         </PopoverContent>
