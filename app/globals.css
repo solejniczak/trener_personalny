@@ -6,28 +6,12 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: white;
+  background: black
 }
 
  
@@ -148,6 +132,16 @@ body {
 
   .shadow-pink {
     filter: drop-shadow(rgb(255, 0, 255) 0.5rem 0.5rem 1px);
+    border: none;
+  }
+
+  .shadow-white {
+    filter: drop-shadow(rgb(255, 255, 255) 0.25rem 0.25rem 1px);
+    border: none;
+  }
+
+  .shadow-gray {
+    filter: drop-shadow(rgb(165, 165, 165) 0.25rem 0.25rem 1px);
     border: none;
   }
 }

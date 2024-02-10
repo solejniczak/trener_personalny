@@ -40,7 +40,7 @@ export default function Home() {
             </Reveal>
 
             <Reveal>
-              <Button size="lg" className="mt-10 button w-fit bg-pink-700 hover:bg-pink-900">
+              <Button size="lg" className="mt-10 button w-fit bg-pink-700 hover:bg-pink-900 rounded-xl">
                 <Link href="#oferta">
                   Zobacz ofertę
                 </Link>
@@ -105,7 +105,7 @@ export default function Home() {
             </div>
 
             <Reveal>
-              <Button size="lg" className="mt-10 button w-fit bg-pink hover:bg-pink-darker">
+              <Button size="lg" className="mt-10 button w-fit bg-pink hover:bg-pink-darker shadow-white hover:shadow-gray">
                 <Link href="/cennik">
                   Zobacz ofertę
                 </Link>
