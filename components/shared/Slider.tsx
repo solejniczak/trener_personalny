@@ -50,7 +50,7 @@ export default function Slider() {
 
                     <p className="flex ml-2 text-center items-center justify-center font-bold text-lg">Kamil Ślimak</p>       
                         </div>
-                        <p className="p-5 h-2/3">Podszedłem w trakcie treningu zapytać o pewniaczki i Pan Jakub był tak miły, że przerwał trening i mi pomógł skleić dobry kupon</p>
+                        <p className="p-5 h-2/3">Podszedłem w trakcie treningu zapytać o porady i Pan Jan był tak miły, że przerwał trening i mi pomógł</p>
                     </div>
                 </CarouselItem>
 
@@ -66,7 +66,7 @@ export default function Slider() {
 
                         <p className="flex ml-2 text-center items-center justify-center font-bold text-xl">Ewa Kowalska</p>
                         </div>
-                        <p className="p-5 h-2/3">Miałam problem z jelitami, ale na szczęście Pan Jakub pomógł mi dobrać odpowiednią dietę. Dzięki niemu znowu moge jeść kebaby od zahidy</p>
+                        <p className="p-5 h-2/3">Miałam problem z jelitami, ale na szczęście Pan Jan pomógł mi dobrać odpowiednią dietę</p>
                     </div>
                 </CarouselItem>
 
@@ -82,7 +82,7 @@ export default function Slider() {
 
                         <p className="flex ml-2 text-center items-center justify-center font-bold text-xl">Tomasz Rakowski</p>
                         </div>
-                        <p className="p-5 h-2/3">Dobra mordka pozdro wariaty elo</p>
+                        <p className="p-5 h-2/3">Nejlepszy trener na jakiego trafiłem w swoim życiu</p>
                     </div>
                 </CarouselItem>
 
@@ -96,9 +96,9 @@ export default function Slider() {
                             height={50}
                             />
 
-                        <p className="flex ml-2 text-center items-center justify-center font-bold text-xl">Honorata Brzęczypała</p>
+                        <p className="flex ml-2 text-center items-center justify-center font-bold text-xl">Honorata Bukowska</p>
                         </div>
-                        <p className="p-5 h-2/3">Polecam dobre pewniaczki, raz powiedział żeby postawić BTTS i siadło w 1 minucie.</p>
+                        <p className="p-5 h-2/3">Polecam, zbilansowane diety, a zniżki w Lidlu pomagają sporo zaoszczędzić</p>
                     </div>
                 </CarouselItem>
 

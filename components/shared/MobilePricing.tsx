@@ -105,7 +105,7 @@ const MobilePricing = () => {
                                             height={25}
                                         />
                                     </p>
-                                    <p>1vs1 w lige</p>
+                                    <p>Indywidualny trening</p>
                                 </div>
                                 <p className='mt-5 font-bold'>Cena: 139zł miesięcznie</p>
                                 <Checkout title={'Plan Premium'} price={'139'} buttonText={'Kup Premium'}/>
@@ -117,7 +117,7 @@ const MobilePricing = () => {
 
                     <Reveal delay={0.4}>
                     <Popover>
-                        <PopoverTrigger className='bg-white shadow-pink  p-5 rounded-xl w-full text-black font-bold text-xl'>jakubsc Special</PopoverTrigger>
+                        <PopoverTrigger className='bg-white shadow-pink  p-5 rounded-xl w-full text-black font-bold text-xl'>Special</PopoverTrigger>
                         <PopoverContent className='rounded-xl shadow-pink'>
                             <div>
     
@@ -163,7 +163,7 @@ const MobilePricing = () => {
                                             height={25}
                                         />
                                     </p>
-                                    <p>1vs1 w lige</p>
+                                    <p>Indywidualny trening</p>
                                 </div>
                                 <div className='flex flex-row p-2'>
                                     <p className='mr-2'>
@@ -174,7 +174,7 @@ const MobilePricing = () => {
                                             height={25}
                                         />
                                     </p>
-                                    <p>Pewniaczki na żądanie</p>
+                                    <p>Zniżki w Lidlu</p>
                                 </div>
                                 <p className='mt-5 font-bold'>Cena: 179zł miesięcznie</p>
                                 <Checkout title={'Plan jakubsc Special'} price={'179'} buttonText={'Kup Special'}/>

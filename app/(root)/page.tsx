@@ -16,8 +16,8 @@ export default function Home() {
             </Reveal>
             <Reveal>
               <Image
-                src='/assets/images/jakub.png'
-                alt="jakub"
+                src='/assets/images/jan.png'
+                alt="jan"
                 width={300}
                 height={400}
                 className="p-5"
@@ -25,8 +25,8 @@ export default function Home() {
             </Reveal>
             <Reveal>
               <Image
-                src='/assets/images/olejniczak1.png'
-                alt="olejniczak"
+                src='/assets/images/kowalski.png'
+                alt="kowalski"
                 width={800}
                 height={1000}
                 className="p-5"
@@ -89,7 +89,7 @@ export default function Home() {
 
               <Reveal>
                 <div>
-                  <p className="p-bold-24 mb-5  text-nowrap">Pewniaczki co tydzień</p>
+                  <p className="p-bold-24 mb-5  text-nowrap">Zniżki w Lidlu</p>
                   <div className="flex flex-col justify-center items-center rounded-2xl bg-white hover:scale-105 duration-500 shadow-pink p-5">
                     <Image
                       src='/assets/icons/money.svg'

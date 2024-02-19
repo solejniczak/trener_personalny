@@ -16,8 +16,8 @@ const Pricing = () => {
                 <p className='p-5 min-h-[5rem] max-h-[5rem]'>Plan trenignowy</p>
                 <p className='p-5 min-h-[5rem] max-h-[5rem]'>Tygodniowa dieta</p>
                 <p className='p-5 min-h-[5rem] max-h-[5rem]'>Wsparcie całodobwe</p>
-                <p className='p-5 min-h-[5rem] max-h-[5rem]'>1vs1 w lige</p>
-                <p className='p-5 min-h-[5rem] max-h-[5rem]'>Pewniaczki na żądanie</p>
+                <p className='p-5 min-h-[5rem] max-h-[5rem]'>Indywidualny trening</p>
+                <p className='p-5 min-h-[5rem] max-h-[5rem]'>Zniżki w Lidlu</p>
             </div>
 
             <div className='flex flex-col border-r w-1/4 min-h-[5rem]'>
@@ -140,7 +140,7 @@ const Pricing = () => {
                 </p>
             </div>
             <div className='flex flex-col w-1/4 '>
-                <p className='p-2 border-b'>jakubsc Special</p>
+                <p className='p-2 border-b'>Special</p>
                 <p className='p-5 flex justify-center min-h-[5rem]'>
                     <p>
                         <Image 
